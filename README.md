@@ -7,9 +7,6 @@ Hands-on Azure Cloud learning, labs, projects, and infrastructure practice, star
 - What is Cloud Computing?
 - Benefits of Cloud Computing
 - On-Premises vs Cloud
-- Public Cloud
-- Private Cloud
-- Hybrid Cloud
 - Cloud Service Providers (CSPs)
 - Microsoft Azure Overview
 
@@ -26,7 +23,6 @@ Hands-on Azure Cloud learning, labs, projects, and infrastructure practice, star
 - Public Cloud
 - Private Cloud
 - Hybrid Cloud
-- Multi-Cloud
 
 ## 4. Azure Global Infrastructure
 
