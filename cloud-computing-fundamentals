@@ -1,0 +1,39 @@
+# What is Cloud Computing?
+
+Cloud computing is the delivery of computing resources such as servers,
+storage, databases, networking, software, and applications over the
+internet on demand.
+
+Instead of purchasing and maintaining physical hardware in a data center,
+organizations can use cloud resources from a cloud service provider.
+
+## Key Characteristics
+
+- On-demand self-service
+- Broad network access
+- Resource pooling
+- Rapid elasticity
+- Measured service
+
+## Examples
+
+- Virtual Machines
+- Cloud Storage
+- Databases
+- Virtual Networks
+- Applications
+
+## Cloud Service Providers
+
+- Microsoft Azure
+- Amazon Web Services (AWS)
+- Google Cloud Platform (GCP)
+
+## Advantages
+
+- Reduced infrastructure cost
+- Scalability
+- High availability
+- Flexibility
+- Faster deployment
+- Global accessibility
