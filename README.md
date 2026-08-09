@@ -23,6 +23,7 @@ Hands-on Azure Cloud learning, labs, projects, and infrastructure practice, star
 - Public Cloud
 - Private Cloud
 - Hybrid Cloud
+- multi cloud
 
 ## 4. Azure Global Infrastructure
 
