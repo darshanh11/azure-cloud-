@@ -145,13 +145,4 @@ Example:
 
 **Microsoft 365 → Provider manages the application and underlying infrastructure; customer manages users, access, and their data/configuration.**
 
----
 
-# Summary
-
-- **IaaS** provides infrastructure such as virtual machines, storage, and networking.
-- **PaaS** provides a platform for developing and deploying applications.
-- **SaaS** provides complete software applications over the internet.
-- **IaaS gives the customer the most control.**
-- **SaaS requires the least infrastructure management from the customer.**
-- **PaaS is mainly useful for developers who want to focus on application development.**
