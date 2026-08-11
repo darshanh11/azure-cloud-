@@ -31,16 +31,19 @@ It helps organizations manage:
    - Tenant name
    - Tenant ID
    - Primary domain
+---
+## Screenshot
 
-### Screenshot
-
-## Search for **Microsoft Entra ID**.
+### Search for **Microsoft Entra ID**.
 
 ![Microsoft Entra ID search](image-01.png)
 
-## Microsoft Entra ID **Overview**
+---
+
+###  Microsoft Entra ID **Overview**
 ![Microsoft Entra ID Overview](image-02.png)
 
+---
 The Tenant ID can also be viewed from:
 
 **Microsoft Entra ID → Properties → Tenant ID**
@@ -99,12 +102,6 @@ Add a screenshot of the user creation page here.
    - User principal name
    - Object ID
    - Account status
-
-### Screenshot
-
-![User Created](images/user-created.png)
-
-> Note: Creating users requires an appropriate administrative role, such as User Administrator.
 
 ---
 
@@ -169,12 +166,6 @@ Instead of assigning permissions individually to every user, users can be placed
 7. Select the user.
 
 8. Select **Select**.
-
-### Screenshot
-
-![Add User to Group](images/add-user-to-group.png)
-
-The user is now a member of the Azure-Cloud-Users group.
 
 ---
 
