@@ -82,11 +82,11 @@ Users are identities that can sign in to Microsoft cloud services and access res
 
 11. Select **Create**.
 
-### Screenshot
+## Screenshot
 
-Add a screenshot of the user creation page here.
+### user creation page 
 
-![Create User](images/create-user.png)
+![Create User](image-03.png)
 
 ### Verify User
 
@@ -141,7 +141,7 @@ Instead of assigning permissions individually to every user, users can be placed
 
 ### Screenshot
 
-![Create Group](images/create-group.png)
+![Create Group](image-04.png)
 
 ---
 
@@ -247,7 +247,7 @@ Before demonstrating Azure RBAC, create a resource group.
 
    Example:
 
-   `rg-rbac-lab`
+   `payment`
 
 5. Select an appropriate region.
 
@@ -257,7 +257,7 @@ Before demonstrating Azure RBAC, create a resource group.
 
 ### Screenshot
 
-![Create Resource Group](images/create-resource-group.png)
+![Create Resource Group](image-05.png)
 
 ---
 
@@ -267,11 +267,11 @@ We will assign the **Reader** role to the user created earlier.
 
 1. Open:
 
-   **Resource groups**
+   **storage account**
 
 2. Open:
 
-   `rg-rbac-lab`
+   `tarbacdemo`
 
 3. Select **Access control (IAM)**.
 
@@ -295,7 +295,7 @@ We will assign the **Reader** role to the user created earlier.
 
 11. Search for:
 
-   `clouduser01`
+   `admin`
 
 12. Select the user.
 
@@ -311,15 +311,15 @@ We will assign the **Reader** role to the user created earlier.
 
 ### Screenshot
 
-![Assign Reader Role](images/assign-reader-role.png)
+![Assign Reader Role](image-06.png)
 
 ---
 
 # Verify Azure RBAC Assignment
 
-1. Open the resource group:
+1. Open the storage account:
 
-   `rg-rbac-lab`
+   `tarbacdemo`
 
 2. Select **Access control (IAM)**.
 
@@ -327,13 +327,9 @@ We will assign the **Reader** role to the user created earlier.
 
 4. Search for:
 
-   `clouduser01`
+   `admin`
 
 5. Verify that the user has the **Reader** role.
-
-### Screenshot
-
-![RBAC Role Assignment](images/rbac-role-assignment.png)
 
 ---
 
@@ -341,31 +337,28 @@ We will assign the **Reader** role to the user created earlier.
 
 Now we can demonstrate a higher level of access.
 
-1. Open:
 
-   **Resource groups → rg-rbac-lab**
+1. open **Access control (IAM)**.
 
-2. Select **Access control (IAM)**.
+2. Select **Add → Add role assignment**.
 
-3. Select **Add → Add role assignment**.
-
-4. Search for:
+3. Search for:
 
    `Contributor`
 
-5. Select **Contributor**.
+4. Select **Contributor**.
 
-6. Select **Next**.
+7. Select **Next**.
 
-7. Select **User, group, or service principal**.
+8. Select **User, group, or service principal**.
 
-8. Select **clouduser01**.
+9. Select **Yash TR**.
 
 9. Select **Review + assign**.
 
 ### Screenshot
 
-![Contributor Role](images/contributor-role.png)
+![Contributor Role](image-07.png)
 
 ### Difference
 
@@ -410,7 +403,7 @@ This can be demonstrated using an Azure Virtual Machine.
 
 ### Screenshot
 
-![Managed Identity](images/managed-identity.png)
+![Managed Identity](image-08.png)
 
 Managed identities are useful when an Azure resource needs to access another Azure service securely.
 
@@ -426,15 +419,15 @@ For example, a CI/CD pipeline can use a service principal to authenticate to Azu
 
 Application
 
-↓
+   ↓
 
 Service Principal
 
-↓
+   ↓
 
 Microsoft Entra ID
 
-↓
+   ↓
 
 Azure Resource
 
