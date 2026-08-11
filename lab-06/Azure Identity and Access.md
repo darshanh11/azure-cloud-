@@ -34,9 +34,12 @@ It helps organizations manage:
 
 ### Screenshot
 
-Add a screenshot of the Microsoft Entra ID Overview page here.
+## Search for **Microsoft Entra ID**.
 
-![Microsoft Entra ID Overview](images/entra-id-overview.png)
+![Microsoft Entra ID search](image-01.png)
+
+## Microsoft Entra ID **Overview**
+![Microsoft Entra ID Overview](image-02.png)
 
 The Tenant ID can also be viewed from:
 
