@@ -12,7 +12,7 @@ A VM can run operating systems such as Windows Server or Linux.
 1. Sign in to the Azure Portal.
 2. Search for **Virtual Machines**.
 3. Select **Create → Azure virtual machine**.
-4. Select the required **Subscription**.ā
+4. Select the required **Subscription**.
 5. Select or create a **Resource Group**.
 6. Enter the **Virtual Machine name**.
 7. Select the required **Region**.
