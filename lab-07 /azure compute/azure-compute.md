@@ -209,7 +209,7 @@ deploying applications.
 14. Select **Create**.
 
 ### Screenshot
-![Azure Container Instance](../screenshot/image-06.png)
+![Azure Container Instance](../screenshots/image-06.png)
 
 ---
 
