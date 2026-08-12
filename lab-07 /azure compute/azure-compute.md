@@ -28,9 +28,9 @@ A VM can run operating systems such as Windows Server or Linux.
 17. Select **Create**.
 
 ### Screenshot
-![Azure Virtual Machine Creation](image-01.png)
+![Azure Virtual Machine Creation](azure_compute/screenshots/image-01.png)
 
----
+-----
 
 ## 2. VM Sizes
 
@@ -52,7 +52,7 @@ and network performance. Different VM sizes are selected according to workload r
 9. Continue with the VM configuration.
 
 ### Screenshot
-![VM Sizes](image-02.png)
+![VM Sizes](azure compute/screenshots/image-02.png)
 
 ---
 
@@ -77,7 +77,7 @@ Azure Managed Disks provide scalable and reliable storage for virtual machines.
 10. Continue to the next configuration step.
 
 ### Screenshot
-![VM Disks](image-03.png)
+![VM Disks](azure compute/screenshots/image-03.png)
 
 ---
 
@@ -100,7 +100,7 @@ Red Hat Enterprise Linux, and other supported distributions.
 8. Continue with the remaining VM configuration.
 
 ### Screenshot
-![VM Image](image-04.png)
+![VM Image](azure compute/screenshots/image-04.png)
 
 ---
 
@@ -125,7 +125,7 @@ Azure distributes VMs across fault domains and update domains.
 10. Select **Create**.
 
 ### Screenshot
-![VM Availability Set](image-05.png)
+![VM Availability Set](azure compute/screenshots/image-05.png)
 
 ---
 
@@ -209,7 +209,7 @@ deploying applications.
 14. Select **Create**.
 
 ### Screenshot
-![Azure Container Instance](image-06.png)
+![Azure Container Instance](azure_compute/screenshot/image-06.png)
 
 ---
 
