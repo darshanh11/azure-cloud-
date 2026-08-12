@@ -28,7 +28,7 @@ A VM can run operating systems such as Windows Server or Linux.
 17. Select **Create**.
 
 ### Screenshot
-![Azure Virtual Machine Creation](screenshots/01-create-vm.png)
+![Azure Virtual Machine Creation](image-01.png)
 
 ---
 
@@ -52,7 +52,7 @@ and network performance. Different VM sizes are selected according to workload r
 9. Continue with the VM configuration.
 
 ### Screenshot
-![VM Sizes](screenshots/02-vm-size.png)
+![VM Sizes](image-02.png)
 
 ---
 
@@ -77,7 +77,7 @@ Azure Managed Disks provide scalable and reliable storage for virtual machines.
 10. Continue to the next configuration step.
 
 ### Screenshot
-![VM Disks](screenshots/03-vm-disks.png)
+![VM Disks](image-03.png)
 
 ---
 
@@ -100,7 +100,7 @@ Red Hat Enterprise Linux, and other supported distributions.
 8. Continue with the remaining VM configuration.
 
 ### Screenshot
-![VM Image](screenshots/04-vm-image.png)
+![VM Image](image-04.png)
 
 ---
 
@@ -125,7 +125,7 @@ Azure distributes VMs across fault domains and update domains.
 10. Select **Create**.
 
 ### Screenshot
-![VM Availability Set](screenshots/05-availability-set.png)
+![VM Availability Set](image-05.png)
 
 ---
 
@@ -155,9 +155,6 @@ number of VM instances according to workload requirements.
 15. Select **Review + create**.
 16. Select **Create**.
 
-### Screenshot
-![VM Scale Set](screenshots/06-vm-scale-set.png)
-
 ---
 
 ## 7. Azure App Service
@@ -184,9 +181,6 @@ and provides features such as scaling, deployment, and monitoring.
 13. Review the configuration.
 14. Select **Review + create**.
 15. Select **Create**.
-
-### Screenshot
-![Azure App Service](screenshots/07-app-service.png)
 
 ---
 
@@ -215,7 +209,7 @@ deploying applications.
 14. Select **Create**.
 
 ### Screenshot
-![Azure Container Instance](screenshots/08-container.png)
+![Azure Container Instance](image-06.png)
 
 ---
 
@@ -244,5 +238,3 @@ Functions can be triggered by HTTP requests, timers, queues, events, and other s
 14. Select **Review + create**.
 15. Select **Create**.
 
-### Screenshot
-![Azure Functions](screenshots/09-azure-functions.png)
