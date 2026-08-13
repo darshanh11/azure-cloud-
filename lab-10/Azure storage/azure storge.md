@@ -23,7 +23,7 @@ An Azure Storage account provides a secure and scalable storage namespace for Az
 
 ### Screenshot
 
-![Azure Storage Account](../screenshot/image1.png)
+![Azure Storage Account](../screenshot/image-01.png)
 
 ---
 
@@ -51,7 +51,7 @@ Blob data is organized into containers, and containers are stored inside a stora
 
 ### Screenshot
 
-![Azure Blob Storage](../screenshot/image2.png)
+![Azure Blob Storage](../screenshot/image-02.png)
 
 ---
 
@@ -76,7 +76,7 @@ Azure Files provides managed cloud file shares that can be accessed using standa
 
 ### Screenshot
 
-![Azure Files](../screenshot/image3.png)
+![Azure Files](../screenshot/image-03.png)
 
 ---
 
@@ -99,7 +99,7 @@ Azure Queue Storage provides a messaging system for storing large numbers of mes
 
 ### Screenshot
 
-![Azure Queue Storage](../screenshot/image4.png)
+![Azure Queue Storage](../screenshot/image-04.png)
 
 ---
 
@@ -127,7 +127,7 @@ Data is stored as entities inside tables. Each entity contains properties that r
 
 ### Screenshot
 
-![Azure Table Storage](../screenshot/image5.png)
+![Azure Table Storage](../screenshot/image-05.png)
 
 ---
 
@@ -153,7 +153,7 @@ Hot is intended for frequently accessed data, while cooler tiers are intended fo
 
 ### Screenshot
 
-![Azure Storage Tier](../screenshot/image6.png)
+![Azure Storage Tier](../screenshot/image-06.png)
 
 ---
 
@@ -176,7 +176,7 @@ Common options include **LRS**, **ZRS**, **GRS**, and **GZRS**. The appropriate 
 
 ### Screenshot
 
-![Azure Storage Redundancy](../screenshot/image7.png)
+![Azure Storage Redundancy](../screenshot/image-07.png)
 
 ---
 
@@ -201,7 +201,7 @@ For applications that need SAS, Microsoft recommends using a user delegation SAS
 
 ### Screenshot
 
-![Azure SAS Token](../screenshot/image8.png)
+![Azure SAS Token](../screenshot/image-08.png)
 
 ---
 
@@ -228,7 +228,7 @@ Azure Storage supports Microsoft Entra ID with Azure RBAC, SAS, and Shared Key a
 
 ### Screenshot
 
-![Azure Storage Security](../screenshot/image9.png)
+![Azure Storage Security](../screenshot/image-09.png)
 
 ---
 
