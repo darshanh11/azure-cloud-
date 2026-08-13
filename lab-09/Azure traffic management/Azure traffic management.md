@@ -28,7 +28,7 @@ It improves application availability and scalability by distributing traffic bet
 16. Select **Create**.
 
 ## screenshot
-![Azure Load Balancer](../image-01.png)
+![Azure Load Balancer](../screenshots/image-01.png)
 
 
 ---
@@ -64,7 +64,7 @@ It also supports features such as SSL/TLS termination, autoscaling, and integrat
 
 
 ## screenshot
-![Azure Application Gateway](../image-02.png)
+![Azure Application Gateway](../screenshots/image-02.png)
 -->
 
 ---
@@ -98,7 +98,7 @@ WAF can be integrated with services such as Azure Application Gateway and Azure 
 
 
 ## screenshot
-![Azure Web Application Firewall](../image-03.png)
+![Azure Web Application Firewall](../screenshots/image-03.png)
 
 
 ---
@@ -129,7 +129,7 @@ Traffic Manager can use routing methods such as Priority, Weighted, Performance,
 
 
 ## screenshot
-![Azure Traffic Manager](../image-04.png)
+![Azure Traffic Manager](../screenshots/image-04.png)
 
 
 ---
@@ -161,7 +161,7 @@ It can provide global traffic distribution, acceleration, TLS termination, healt
 15. Select **Create**.
 
 ## screenshot
-![Azure Front Door](../azure-05.png)
+![Azure Front Door](../screenshots/azure-05.png)
 
 ---
 
@@ -194,7 +194,7 @@ Azure provides content delivery capabilities through its current Front Door-base
 
 
 ## screenshot
-![Azure CDN](../image-06.png)
+![Azure CDN](../screenshots/image-06.png)
 -->
 
 ---
