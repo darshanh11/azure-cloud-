@@ -232,16 +232,3 @@ Azure Storage supports Microsoft Entra ID with Azure RBAC, SAS, and Shared Key a
 
 ---
 
-## Summary
-
-Azure Storage provides scalable cloud storage for different types of data and application requirements.
-
-- **Storage Accounts** provide the main storage namespace.
-- **Blob Storage** stores unstructured object data.
-- **Azure Files** provides managed file shares.
-- **Queue Storage** provides asynchronous message storage.
-- **Table Storage** provides NoSQL structured data storage.
-- **Storage Tiers** help optimize storage costs according to access frequency.
-- **Redundancy Options** protect data against failures.
-- **SAS Tokens** provide controlled and time-limited access to storage resources.
-- **Storage Security** controls authentication, authorization, and access to storage data.
