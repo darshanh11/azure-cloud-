@@ -21,9 +21,6 @@ An ARM template describes the resources, properties, dependencies, and configura
 9. Select **Review + create**.
 10. Select **Create**.
 
-### Screenshot
-
-![ARM Template Deployment](../screenshot/image-01.png)
 
 ---
 
@@ -47,9 +44,6 @@ Bicep files normally use the `.bicep` extension and are compiled into ARM deploy
 8. Deploy the Bicep template.
 9. Verify the deployed resources in the Azure Portal.
 
-### Screenshot
-
-![Azure Bicep Deployment](../screenshot/image-02.png)
 
 ---
 
@@ -105,9 +99,6 @@ For Azure, Terraform commonly uses the **AzureRM provider** to create and manage
 14. Confirm the deployment.
 15. Verify the resources in the Azure Portal.
 
-### Screenshot
-
-![Terraform Azure Deployment](../screenshot/image-03.png)
 
 ---
 
