@@ -126,3 +126,66 @@ This makes the same infrastructure definition reusable across different environm
 ```bicep
 param location string = resourceGroup().location
 param storageAccountName string
+```
+
+## Variables
+
+### Explanation
+
+Variables are reusable values defined inside an Infrastructure as Code configuration.
+
+They are used to store values that may be used multiple times in the code, such as environment names, resource names, locations, IP address ranges, or other configuration values.
+
+Using variables reduces repetition and makes the Infrastructure as Code file easier to read, maintain, and modify.
+
+### Example
+
+```bicep
+param environment string = 'dev'
+
+var storageAccountName = 'storage${environment}001'
+var locationName = resourceGroup().location
+```
+## Resources
+
+### Explanation
+
+Resources are the actual Azure services that are created and managed using Infrastructure as Code.
+
+Examples of Azure resources include Virtual Machines, Storage Accounts, Virtual Networks, Subnets, Public IP Addresses, Network Security Groups, and App Services.
+
+In Bicep, a resource block defines the type of Azure service, its name, location, and required configuration properties. Resources can also use parameters and variables to make the configuration reusable.
+
+### Example
+
+```bicep
+param location string = resourceGroup().location
+param storageAccountName string = 'mystorageaccount001'
+
+resource storageAccount 'Microsoft.Storage/storageAccounts@2023-05-01' = {
+  name: storageAccountName
+  location: location
+  sku: {
+    name: 'Standard_LRS'
+  }
+  kind: 'StorageV2'
+}
+```
+## Deployments
+
+### Explanation
+
+Deployment is the process of applying an Infrastructure as Code configuration to Azure to create or update resources.
+
+During a deployment, Azure reads the configuration and creates or modifies the resources defined in the template. Deployments can be performed using ARM Templates, Bicep, Azure CLI, Azure PowerShell, or Terraform.
+
+Before deployment, the configuration should be validated and the planned changes should be reviewed to reduce configuration errors.
+
+### Example
+
+```bash
+az deployment group create \
+  --resource-group myResourceGroup \
+  --template-file main.bicep \
+  --parameters environment=dev
+```
