@@ -22,7 +22,7 @@ It helps administrators monitor resource performance, availability, metrics, log
 
 ### Screenshot
 
-![Azure Monitor](../screenshot/image10.png)
+![Azure Monitor](../screenshot/image-01.png)
 
 ---
 
@@ -53,7 +53,7 @@ Administrators can use Kusto Query Language (KQL) to search logs and troubleshoo
 
 ### Screenshot
 
-![Log Analytics](../screenshot/image11.png)
+![Log Analytics](../screenshot/image-02.png)
 
 ---
 
@@ -83,7 +83,7 @@ It helps monitor application availability, performance, failures, requests, depe
 
 ### Screenshot
 
-![Application Insights](../screenshot/image12.png)
+![Application Insights](../screenshot/image-03.png)
 
 ---
 
@@ -111,7 +111,7 @@ Alerts can be configured using metrics, log queries, activity log events, and ot
 
 ### Screenshot
 
-![Azure Monitor Alert](../screenshot/image13.png)
+![Azure Monitor Alert](../screenshot/image-04.png)
 
 ---
 
@@ -136,7 +136,7 @@ It includes information about service incidents, planned maintenance, health adv
 
 ### Screenshot
 
-![Azure Service Health](../screenshot/image14.png)
+![Azure Service Health](../screenshot/image-05.png)
 
 ---
 
@@ -161,7 +161,7 @@ It helps administrators identify possible improvements in their Azure environmen
 
 ### Screenshot
 
-![Azure Advisor](../screenshot/image15.png)
+![Azure Advisor](../screenshot/image-06.png)
 
 ---
 
@@ -189,18 +189,6 @@ Activity Log data is useful for auditing, troubleshooting, and understanding cha
 
 ### Screenshot
 
-![Azure Activity Log](../screenshot/image16.png)
+![Azure Activity Log](../screenshot/image-07.png)
 
 ---
-
-## Summary
-
-Azure Monitoring and Management provides tools for monitoring resources, applications, logs, alerts, service health, recommendations, and administrative activities.
-
-- **Azure Monitor** – Provides centralized monitoring of Azure resources and applications.
-- **Log Analytics** – Collects and analyzes log data using KQL.
-- **Application Insights** – Monitors application performance and telemetry.
-- **Alerts** – Notifies administrators when specified conditions occur.
-- **Azure Service Health** – Provides information about Azure service issues and maintenance.
-- **Azure Advisor** – Provides recommendations for improving Azure resources.
-- **Activity Log** – Records subscription-level administrative and resource events.
