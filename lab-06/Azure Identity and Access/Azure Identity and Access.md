@@ -36,8 +36,7 @@ It helps organizations manage:
 
 ### Search for **Microsoft Entra ID**.
 
-![Microsoft Entra ID search]
-(./screenshot/image-01.png)
+![Microsoft Entra ID search](./screenshot/image-01.png)
 
 ---
 
