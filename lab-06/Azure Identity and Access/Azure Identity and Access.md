@@ -41,7 +41,7 @@ It helps organizations manage:
 ---
 
 ###  Microsoft Entra ID **Overview**
-![Microsoft Entra ID Overview](image-02.png)
+![Microsoft Entra ID Overview](../screenshot/image-02.png)
 
 ---
 The Tenant ID can also be viewed from:
@@ -86,7 +86,7 @@ Users are identities that can sign in to Microsoft cloud services and access res
 
 ### user creation page 
 
-![Create User](image-03.png)
+![Create User](../screenshot/image-03.png)
 
 ### Verify User
 
@@ -141,7 +141,7 @@ Instead of assigning permissions individually to every user, users can be placed
 
 ### Screenshot
 
-![Create Group](image-04.png)
+![Create Group](../screenshot/image-04.png)
 
 ---
 
@@ -257,7 +257,7 @@ Before demonstrating Azure RBAC, create a resource group.
 
 ### Screenshot
 
-![Create Resource Group](image-05.png)
+![Create Resource Group](../screenshot/image-05.png)
 
 ---
 
@@ -311,7 +311,7 @@ We will assign the **Reader** role to the user created earlier.
 
 ### Screenshot
 
-![Assign Reader Role](image-06.png)
+![Assign Reader Role](../screenshot/image-06.png)
 
 ---
 
@@ -358,7 +358,7 @@ Now we can demonstrate a higher level of access.
 
 ### Screenshot
 
-![Contributor Role](image-07.png)
+![Contributor Role](../screenshot/image-07.png)
 
 ### Difference
 
@@ -403,7 +403,7 @@ This can be demonstrated using an Azure Virtual Machine.
 
 ### Screenshot
 
-![Managed Identity](image-08.png)
+![Managed Identity](../screenshot/image-08.png)
 
 Managed identities are useful when an Azure resource needs to access another Azure service securely.
 
